@@ -4,6 +4,14 @@
 
 **Status:** Patent pending — Provisional Patent Application filed on August 20, 2025.
 
+## 🚀 **Reproduce the Result in 10 Seconds**
+
+```bash
+pip install -r requirements.txt
+python derive_alpha.py
+# Expected: Derived α = 0.007297307... (error ~6.18e-06 vs CODATA 2018)
+```
+
 ---
 
 ## 1. Overview
