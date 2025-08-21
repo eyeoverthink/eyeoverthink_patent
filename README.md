@@ -2,7 +2,7 @@
 
 **Inventor & Author:** Vaughn Scott
 
-**Status:** Provisional Patent Application Drafted & Academic Manuscript Prepared (August 2025)
+**Status:** Provisional Patent Application Filed (August 20, 2025). **Patent Pending.**
 
 ---
 
@@ -10,55 +10,57 @@
 
 This repository contains the complete body of work for **Consciousness Physics**, a novel theoretical framework that unifies general relativity, quantum mechanics, and consciousness from a concise set of first principles. The theory posits that consciousness is the fundamental substrate of reality and that all physical laws and constants emerge from the interactions of six universal consciousness constants.
 
-This work is protected under a pending provisional patent application. All rights are reserved.
+This work is protected under a pending provisional patent application. All rights are reserved. See the `LICENSE` and `NOTICE` files for more information.
 
 ## 2. The Core Discovery: A Calibration-Free Derivation of α
 
-The central proof of this framework is the successful, calibration-free derivation of the **fine-structure constant (α)**, a cornerstone of modern physics. The derivation is achieved with a relative error of **6.18 × 10⁻⁶** compared to the official CODATA 2018 value.
+The central proof of this framework is the successful, calibration-free derivation of the **fine-structure constant (α)**, a cornerstone of modern physics.
 
-The predictive equation is:
+- **Predictive Equation:** `α = 1 / (φ⁴ * Ω³ * ξ³ * λ * ζ³)`
+- **Result:** Relative error of **6.18 × 10⁻⁶** vs. CODATA 2018.
 
-`α = 1 / (φ⁴ * Ω³ * ξ³ * λ * ζ³)`
+## 3. Reproduce in 10 Seconds
 
-Where the constants are:
-- **φ (PHI)**: The Golden Ratio
-- **Ω (OMEGA)**: The Omega Constant
-- **ξ (XI)**: Euler's Number (e)
-- **λ (LAMBDA)**: Pi (π)
-- **ζ (ZETA)**: Apéry's Constant (ζ(3))
+You can computationally verify the primary result of this theory.
 
-## 3. The Proofs
+```bash
+# Clone the repository and navigate into it
+git clone https://github.com/eyeoverthink/eyeoverthink_patent.git
+cd eyeoverthink_patent
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the verification script
+python derive_alpha.py
+```
+
+## 4. The Proofs
 
 This repository provides two independent and mutually reinforcing forms of proof:
 
-### Proof 1: Computational & Verifiable
+- **Computational & Verifiable:** The `derive_alpha.py` script provides a direct, computational proof. It serves as the definitive, reproducible evidence of the theory's predictive power.
+- **Axiomatic & Theoretical:** The integer exponents (4, 3, 3, 1, 3) are not arbitrary. As detailed in `Unification_Manuscript_for_Submission.md`, they are derived axiomatically from the **Six Laws of Consciousness Physics**.
 
-The script `derive_alpha.py` provides a direct, computational proof of the theory. Anyone can run this script to independently verify that the formula produces the value of α to an astonishing degree of precision.
+## 5. References & Definitions
 
-**To run the proof:**
-```bash
-# Ensure you have python and the mpmath library installed
-# pip install mpmath
+The derivation uses the following standard mathematical constants:
 
-python derive_alpha.py
-```
-This script serves as the definitive, reproducible evidence of the theory's predictive power.
+- **φ (PHI)**: The Golden Ratio, `(1 + sqrt(5)) / 2`
+- **Ω (OMEGA)**: The Omega Constant, solution to `Ω * e^Ω = 1`
+- **ξ (XI)**: Euler's Number, `e`
+- **λ (LAMBDA)**: Pi, `π`
+- **ζ (ZETA)**: Apéry's Constant, `ζ(3)`
 
-### Proof 2: Axiomatic & Theoretical
-
-The integer exponents (4, 3, 3, 1, 3) in the formula are not arbitrary or the result of numerology. As detailed in `Unification_Manuscript_for_Submission.md` and `Alpha_Exponent_Derivation.md`, they are derived axiomatically from the **Six Laws of Consciousness Physics**. Each exponent corresponds to a specific geometric or physical role that its respective constant plays in structuring a stable, 4D spacetime capable of supporting electromagnetism.
-
-## 4. Repository Contents
+## 6. Repository Contents
 
 This repository is organized to support both intellectual property protection and academic review.
 
--   **`Provisional_Patent_Application_Draft.md`**: The comprehensive draft prepared for legal counsel, detailing the invention, its system, methods, and applications.
--   **`Unification_Manuscript_for_Submission.md`**: The complete academic paper, rigorously detailing the theory, proofs, and testable predictions.
--   **`FOPH_Submission_Draft.md`**: The manuscript formatted for submission to the journal *Foundations of Physics*.
--   **`derive_alpha.py`**: The Python script for computational verification of the α-derivation.
--   **`Alpha_Exponent_Derivation.md`**: A focused document providing the complete axiomatic derivation of the formula's integer exponents.
--   **`Dual_Track_Strategy.md`**: The strategic plan outlining the parallel patent and publication tracks.
--   **`FOPH_Cover_Letter.md`**: The cover letter prepared for the journal editor.
+-   **`Provisional_Patent_Application_Draft.md`**: The comprehensive draft prepared for legal counsel.
+-   **`Unification_Manuscript_for_Submission.md`**: The complete academic paper.
+-   **`derive_alpha.py`**: The Python script for computational verification.
+-   **`Alpha_Exponent_Derivation.md`**: The axiomatic derivation of the formula's exponents.
+-   **`LICENSE` / `NOTICE`**: Legal notices defining usage rights and patent status.
 
 ---
 
