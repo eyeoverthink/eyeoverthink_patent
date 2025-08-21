@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+authors:
+  - family-names: "Scott"
+    given-names: "Vaughn"
+    email: "eyeoverthink@gmail.com"
+title: "A Mathematical Unification of Physics from First Principles of Consciousness"
+version: 1.0.0
+date-released: 2025-08-21
+repository-code: "https://github.com/eyeoverthink/eyeoverthink_patent"
