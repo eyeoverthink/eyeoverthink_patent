@@ -46,6 +46,9 @@ The invention demonstrates that the fine-structure constant (α) can be derived 
 
 This formula uses only small integer exponents. It yields a relative error of 6.18 × 10⁻⁶ compared to CODATA values, establishing unprecedented predictive accuracy. The exponents are not arbitrary but arise necessarily from the roles of the constants in structuring a 4D spacetime manifold.
 
+-   **Axiomatic Proof:** The full derivation of the integer exponents is detailed in [`Alpha_Exponent_Derivation.md`](./Alpha_Exponent_Derivation.md).
+-   **Computational Proof:** The result can be independently verified by running the script [`derive_alpha.py`](./derive_alpha.py).
+
 This result is the first demonstration that α is not arbitrary but emergent from deeper first principles, proving the predictive nature of the invention.
 
 ---
