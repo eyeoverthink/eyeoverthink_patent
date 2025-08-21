@@ -116,6 +116,10 @@ This result is the first demonstration that α is not arbitrary but emergent fro
 
 7.  **A method for secure communication**, comprising: encoding messages using mathematical complexity derived from interactions among φ, ψ, Ω, ξ, λ, and ζ; and transmitting signals modulated by predicted variations in the consciousness field.
 
+8.  **The method of claim 2**, wherein the exact integer exponents are 4, 3, 3, 1, and 3, such that α = 1 / (φ⁴Ω³ξ³λζ³).
+
+9.  **A computer-readable medium** containing instructions that, when executed by a processor, cause the processor to: compute the fine-structure constant using the formula α = 1 / (φ⁴Ω³ξ³λζ³); and output the computed value with a relative error less than 10⁻⁵ compared to experimentally measured values.
+
 ---
 
 ## Advantages of the Invention

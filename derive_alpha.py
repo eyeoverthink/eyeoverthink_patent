@@ -1,18 +1,19 @@
-import numpy as np
 import mpmath as mp
 
+# Set high precision for all calculations
+mp.dps = 50
+
 # --- High-Precision Consciousness Physics Constants ---
-# Using high-precision values as suggested for a rigorous test.
-PHI = (1 + np.sqrt(5)) / 2      # Golden Ratio
-# Use mpmath.findroot for an unambiguous calculation of the Plastic Number.
-PSI = mp.findroot(lambda x: x**3 - x - 1, 1.3) # Plastic Number (real root of x^3 - x - 1 = 0)
-OMEGA = 0.5671432904097838    # Omega Constant (solution to x*e^x = 1)
-XI = np.e                      # Euler's Number
-LAMBDA = np.pi                  # Pi
-ZETA = 1.2020569031595942     # Apery's Constant (ζ(3))
+# All constants computed using mpmath for deterministic, high-precision results
+PHI = (1 + mp.sqrt(5)) / 2           # Golden Ratio
+OMEGA = mp.lambertw(1).real          # Omega Constant (solution to Ω*e^Ω = 1)
+XI = mp.e                            # Euler's Number
+LAMBDA = mp.pi                       # Pi
+ZETA = mp.zeta(3)                    # Apéry's Constant (ζ(3))
+PSI = mp.findroot(lambda x: x**3 - x - 1, 1.3)  # Plastic Number (real root ~1.3247)
 
 # Official CODATA 2018 value for the fine-structure constant
-ALPHA_OFFICIAL = 0.0072973525693
+ALPHA_OFFICIAL = mp.mpf('0.0072973525693')
 
 # --- Hypothesis (Option B): The Unified Field Equation ---
 # This formula emerged from analysis as being astonishingly precise.
@@ -23,7 +24,7 @@ hypothesis_B = 1 / ( (PHI**4) * (OMEGA**3) * (XI**3) * LAMBDA * (ZETA**3) )
 
 # --- Verification ---
 ratio = hypothesis_B / ALPHA_OFFICIAL
-relative_error = abs(hypothesis_B - ALPHA_OFFICIAL) / ALPHA_OFFICIAL
+relative_error = abs(hypothesis_B / ALPHA_OFFICIAL - 1)
 
 print("="*70)
 print("🔬 Verifying Calibration-Free Derivation of Fine-Structure Constant (α)")
@@ -31,18 +32,17 @@ print("="*70)
 print(f"Hypothesis: α = 1 / (φ⁴ * Ω³ * ξ³ * λ * ζ³)")
 
 print("\n--- High-Precision Constant Values ---")
-print(f"  φ (PHI)  : {PHI:.15f}")
+print(f"  φ (PHI)  : {float(PHI):.15f}")
 print(f"  ψ (PSI)  : {float(PSI):.15f}")
-print(f"  Ω (OMEGA): {OMEGA:.15f}")
-print(f"  ξ (XI)   : {XI:.15f}")
-print(f"  λ (LAMBDA): {LAMBDA:.15f}")
-print(f"  ζ (ZETA) : {ZETA:.15f}")
+print(f"  Ω (OMEGA): {float(OMEGA):.15f}")
+print(f"  ξ (XI)   : {float(XI):.15f}")
+print(f"  λ (LAMBDA): {float(LAMBDA):.15f}")
+print(f"  ζ (ZETA) : {float(ZETA):.15f}")
 
 print("\n--- Results ---")
-print(f"  Derived α:    {hypothesis_B:.15f}")
-print(f"  Official α:   {ALPHA_OFFICIAL:.15f}")
-print(f"  Ratio (Derived/Official): {ratio:.12f}")
-print(f"  Relative Error: {relative_error:.2e}")
+print(f"  Derived α : {float(hypothesis_B):.15f}")
+print(f"  Official α: {float(ALPHA_OFFICIAL):.15f} (CODATA 2018)")
+print(f"  Relative error: {float(relative_error):.3e}")
 
 if abs(1 - ratio) < 0.0001: # Require accuracy better than 0.01%
     print("\n" + "="*70)

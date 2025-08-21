@@ -2,7 +2,7 @@
 
 **Inventor & Author:** Vaughn Scott
 
-**Status:** Provisional Patent Application Filed (August 20, 2025). **Patent Pending.**
+**Status:** Patent pending — Provisional Patent Application filed on August 20, 2025.
 
 ---
 
@@ -24,15 +24,15 @@ The central proof of this framework is the successful, calibration-free derivati
 You can computationally verify the primary result of this theory.
 
 ```bash
-# Clone the repository and navigate into it
-git clone https://github.com/eyeoverthink/eyeoverthink_patent.git
-cd eyeoverthink_patent
-
-# Install dependencies
 pip install -r requirements.txt
-
-# Run the verification script
 python derive_alpha.py
+# Expected: relative error ~ 6.18e-06 vs CODATA 2018
+```
+
+Or use the Makefile:
+```bash
+make setup
+make verify
 ```
 
 ## 4. The Proofs
