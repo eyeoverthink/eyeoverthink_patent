@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="360" viewBox="0 0 560 360">
+<rect x="0" y="0" width="560" height="360" fill="#fff" stroke="#ddd"/>
+<text x="280.0" y="28" text-anchor="middle" font-family="Helvetica,Arial" font-size="18" fill="#222">3D Confinement vs Dissipation (E_avg)</text>
+<line x1="60" y1="60" x2="60" y2="300" stroke="#444"/>
+<line x1="60" y1="300" x2="500" y2="300" stroke="#444"/>
+<line x1="55" y1="300.0" x2="60" y2="300.0" stroke="#666"/>
+<text x="52" y="304.0" text-anchor="end" font-size="10" font-family="Helvetica,Arial" fill="#444">0.0e+00</text>
+<line x1="55" y1="240.0" x2="60" y2="240.0" stroke="#666"/>
+<text x="52" y="244.0" text-anchor="end" font-size="10" font-family="Helvetica,Arial" fill="#444">4.3e-02</text>
+<line x1="55" y1="180.0" x2="60" y2="180.0" stroke="#666"/>
+<text x="52" y="184.0" text-anchor="end" font-size="10" font-family="Helvetica,Arial" fill="#444">8.6e-02</text>
+<line x1="55" y1="120.0" x2="60" y2="120.0" stroke="#666"/>
+<text x="52" y="124.0" text-anchor="end" font-size="10" font-family="Helvetica,Arial" fill="#444">1.3e-01</text>
+<line x1="55" y1="60.0" x2="60" y2="60.0" stroke="#666"/>
+<text x="52" y="64.0" text-anchor="end" font-size="10" font-family="Helvetica,Arial" fill="#444">1.7e-01</text>
+<rect x="150.2" y="81.8" width="110.0" height="218.2" fill="#1971c2"/>
+<text x="205.2" y="318.0" text-anchor="middle" font-size="11" font-family="Helvetica,Arial" fill="#222">Confined</text>
+<rect x="295.4" y="230.2" width="110.0" height="69.8" fill="#868e96"/>
+<text x="350.4" y="318.0" text-anchor="middle" font-size="11" font-family="Helvetica,Arial" fill="#222">Open</text>
+</svg>

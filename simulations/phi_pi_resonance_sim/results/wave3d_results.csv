@@ -1,0 +1,4 @@
+scenario,E_avg,E_peak
+confined,1.562675796e-01,2.066448085e-01
+open,4.998280469e-02,7.127687837e-02
+ratio_confined_over_open,3.126427,

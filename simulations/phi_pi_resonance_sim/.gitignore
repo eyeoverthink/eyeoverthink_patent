@@ -1,0 +1,5 @@
+results/*
+!results/*.csv
+!results/*.svg
+__pycache__/
+*.pyc
